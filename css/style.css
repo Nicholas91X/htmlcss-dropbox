@@ -202,7 +202,7 @@ main .abbonamento {
 .main-col-sx .singolo,
 .main-col-cen .singolo,
 .main-col-dx .singolo {
-    min-height: 700px;
+    min-height: 750px;
 }
 
 .main-col-cen {
@@ -212,7 +212,7 @@ main .abbonamento {
 .singolo span {
     display: block;
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -247,14 +247,14 @@ main .abbonamento {
 } */
 
 .debug main {
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 100%;
     height: 2400px; 
 }
 
-.debug main .abbonamento {
+/* .debug main .abbonamento {
     background-color: burlywood;
-}
+} */
 
 /* .debug .colonne {
     width: 100%;
