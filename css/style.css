@@ -117,8 +117,8 @@ a {
     padding-bottom: 30px;
 }
 
-.jumbo-col-sx h4 {
-    padding-top: 20px;
+.jumbo-col-sx h5 {
+    padding-top: 15px;
 }
 
 .jumbo-col-dx {
@@ -132,7 +132,14 @@ a {
 }
 
 #proposta-cliente {
-width: 100%;}
+width: 100%;
+}
+
+.jumbo-col-sx i {
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
 /* main */
 
 /* footer */
