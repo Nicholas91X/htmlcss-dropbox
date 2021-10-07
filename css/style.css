@@ -88,7 +88,7 @@ a {
 /* jumbotron */
 .jumbo-container {
     width: 100%;
-    height: 600px;
+    height: 550px;
     background-color: rgba(150, 200, 250, 0.7);
     margin-top:50px;
 }
@@ -132,11 +132,12 @@ a {
 }
 
 #proposta-cliente {
-width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .jumbo-col-sx i {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 25px;
     font-weight: bold;
 }
@@ -149,3 +150,9 @@ width: 100%;
 /* .debug .header-container {
     background-color: aqua;
 } */
+
+.debug main {
+    background-color: tomato;
+    width: 100%;
+    height: 2400px; 
+}
