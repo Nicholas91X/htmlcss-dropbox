@@ -19,15 +19,22 @@ a {
     text-decoration: none;
 }
 
+.blue-button {
+    background-color: blue;
+    padding: 5px 15px;
+    color: lightgrey;
+}
+
 /* header */
 .header-container {
     width: 100%;
-    height: 75px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
     font-size: 12px;
+    background-color: white;
 }
 
 .logo,
@@ -43,7 +50,7 @@ a {
 .header-container nav,
 .header-container .logo,
 .header-container .accedi {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 .header-container img {
@@ -54,7 +61,8 @@ a {
     display: inline-block;
     padding-left: 40px;
     vertical-align: middle;
-    font-weight: 400;
+    font-weight: 500;
+    list-style: none;
 }
 
 .logo {
@@ -64,7 +72,7 @@ a {
 }
 
 .header-container nav {
-    width: 40vw;
+    width: 35vw;
     color: black;
 }
 
@@ -77,16 +85,54 @@ a {
     margin: 0 20px 0 30px;
 }
 
-#inizia {
-    background-color: blue;
-    padding: 5px 15px;
-    color: lightgrey;
+/* jumbotron */
+.jumbo-container {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(150, 200, 250, 0.7);
+    margin-top:50px;
 }
 
+.container-interno {
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px 0;
+}
 
+.container-interno h1 {
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: left;
+}
 
-/* jumbotron */
+.jumbo-col-sx {
+    width: 35%;
+    float: left;
+    padding-right: 30px;
+}
 
+.jumbo-col-sx p {
+    font-size: 14px;
+    line-height: 1.4;
+    padding-bottom: 30px;
+}
+
+.jumbo-col-sx h4 {
+    padding-top: 20px;
+}
+
+.jumbo-col-dx {
+    width: 65%;
+    float: right;
+}
+
+.jumbo-col-sx,
+.jumbo-col-dx {
+    margin-top: 40px;
+}
+
+#proposta-cliente {
+width: 100%;}
 /* main */
 
 /* footer */
