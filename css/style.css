@@ -4,3 +4,96 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.header-container {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo,
+.nav-sx {
+    float: left;
+}
+
+.nav-dx,
+.accedi {
+    float: right;
+}
+
+.header-container nav,
+.header-container .logo,
+.header-container .accedi {
+    line-height: 75px;
+}
+
+.header-container img {
+    vertical-align: middle;
+}
+
+.header-container li {
+    display: inline-block;
+    padding-left: 40px;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 10vw;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.header-container nav {
+    width: 40vw;
+    color: black;
+}
+
+.header-container nav.nav-dx,
+.accedi {
+    text-align: right;
+}
+
+.accedi {
+    padding: 0 20px 0 30px;
+}
+
+#inizia {
+    background-color: blue;
+    padding: 5px 15px;
+    color: lightgrey;
+    font-size: 12px;
+}
+
+
+
+/* jumbotron */
+
+/* main */
+
+/* footer */
+
+/* debug */
+
+/* .debug .header-container {
+    background-color: aqua;
+} */
