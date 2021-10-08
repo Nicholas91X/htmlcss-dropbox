@@ -348,6 +348,17 @@ main .contenitore-lungo {
     padding-right: 20px;
 }
 
+.titolo-chiusura {
+    width: 50%;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+#scopri {
+    font-size: 12px;
+    text-decoration: underline;
+    color: blue;
+}
 
 /* footer */
 
