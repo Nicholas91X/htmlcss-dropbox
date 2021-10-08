@@ -360,6 +360,99 @@ main .contenitore-lungo {
     color: blue;
 }
 
+/* main sezione partners */
+.partners-container {
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.partners-container .col-sx,
+.partners-container .col-dx {
+    width: 30vw;
+    float: left;
+}
+
+.partners-container .col-cen {
+    width: 40vw;
+    height: 30vw;
+    float: left;
+    padding: 30px;
+}
+
+.partners-container .col-cen p {
+    font-size: 13px;
+    padding: 40px 0;
+}
+
+.partner-1,
+.partner-2,
+.partner-3,
+.partner-4 {
+    float: left;
+    width: 15vw;
+    height: 15vw;
+    line-height: 15vw;
+    text-align: center;
+}
+
+.partners-container .col-sx img,
+.partners-container .col-dx img {
+    width: 50%;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.partners-container .col-sx .partner-1 {
+    background-color: rgba(162,211,155,255);
+    border: 10px solid rgba(208,233,205,255);
+}
+
+.partners-container .col-sx .partner-2 {
+    background-color: rgba(97,8,43,255);
+}
+
+.partners-container .col-sx .partner-3 {
+    background-color: rgba(0,147,206,255);
+}
+
+.partners-container .col-sx .partner-4 {
+    background-color: rgba(255,28,28,255);
+}
+
+.partners-container .col-dx .partner-1 {
+    background-color: rgba(255,28,28,255);
+}
+
+.partners-container .col-dx .partner-2 {
+    background-color: rgba(180,208,231,255);
+}
+
+.partners-container .col-dx .partner-3 {
+    background-color: rgba(13,36,129,255);
+}
+
+.partners-container .col-dx .partner-4 {
+    background-color: rgba(255,216,48,255);
+}
+
+.partners-container .col-cen {
+    background-color: rgba(245,245,245,255);
+}
+
+.partners-container .col-cen img {
+    width: 20%;
+}
+
+.partners-orizzontale {
+    width: 100vw;
+    height: 20vw;
+}
+
+.partners-orizzontale {
+    background-color: rgba(180,208,231,255);
+    float: left;
+}
+
 /* footer */
 
 /* debug */
@@ -371,10 +464,10 @@ main .contenitore-lungo {
     background-color: chartreuse;
 } */
 
-.debug .main-container {
+/* .debug .main-container {
     height: 2400px;
-    /* background-color: brown; */
-}
+    background-color: brown;
+} */
 
 /* .debug .container-interno {
     height: 100%;
