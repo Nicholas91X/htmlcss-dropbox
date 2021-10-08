@@ -173,7 +173,8 @@ main .colonne .col-dx {
 
 main .col-sx .label-abbonamento,
 main .col-cen .label-abbonamento,
-main .col-dx .label-abbonamento {
+main .col-dx .label-abbonamento,
+main .contenitore-lungo .label-abbonamento {
     text-align: center;
     border-bottom: 1px solid black;
 }
@@ -191,7 +192,8 @@ main .container-interno .colonne {
     margin-top: 20px;
 }
 
-main .colonne .label-abbonamento {
+main .colonne .label-abbonamento,
+main .contenitore-lungo .label-abbonamento {
     padding: 5px 0;
 }
 
@@ -236,8 +238,32 @@ main .col-dx .specifiche-abbonamento {
     text-align: center;
 }
 
+main .contenitore-lungo {
+    border: 1px solid black;
+    margin-top: 50px;
+}
 
+.contenitore-colonne {
+    padding: 30px 20px;
+}
 
+.contenitore-lungo .col-sx {
+    width: 70%;
+    float: left;
+}
+
+.contenitore-lungo .col-sx p {
+    font-size: 12px;
+}
+
+.contenitore-lungo .col-sx h4 {
+    margin: 20px 0 30px;
+}
+
+.contenitore-lungo .col-dx {
+    width: 30%;
+    float: left;
+}
 /* footer */
 
 /* debug */
