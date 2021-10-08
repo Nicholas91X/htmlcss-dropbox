@@ -25,6 +25,13 @@ a {
     color: white;
 }
 
+.white-button {
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
 /* header */
 .header-container {
     width: 100%;
@@ -147,6 +154,8 @@ a {
     max-width: 800px;
 }
 /* main */
+
+/* prima sezione */
 .main-container {
     width: 100%;
 }
@@ -183,7 +192,7 @@ main .colonne .col-cen {
     margin: 0 30px 0;
 }
 
-main .container-interno h2 {
+main .container-interno h2.sez-abbonamento {
     font-size: 30px;
     padding: 150px 0 30px;
 }
@@ -263,6 +272,37 @@ main .contenitore-lungo {
 .contenitore-lungo .col-dx {
     width: 30%;
     float: left;
+}
+
+/* main seconda sezione */
+.contenitore-partner {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.contenitore-partner .col-sx,
+.contenitore-partner .col-dx {
+    width: 55%;
+    float: left;
+}
+
+.contenitore-partner .col-dx {
+    width: 45%;
+    padding: 30px 0 0 30px;
+    float: left;
+}
+
+.contenitore-partner .col-dx h2 {
+    padding-bottom: 30px;
+}
+
+.contenitore-partner .col-dx p {
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.contenitore-partner img {
+    width: 100%;
 }
 /* footer */
 
