@@ -498,24 +498,48 @@ main .contenitore-lungo {
 
 /* main domande frequenti */
 .contenitore-faq {
+    width: ;
     margin-top: 100px;
 }
 
 .domanda {
+    width: 100%;
     display: inline-block;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.domanda div {
+    width: 100%;
+}
+
+.domanda h5,
+.domanda span {
+    display: inline-block;
+}
+
+.domanda span {
+    float: right;
+}
+
+.domanda:hover span {
+    display: none;
+}
+
+.domanda p {
+    display: none;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.domanda:hover p {
+    display: block;
 }
 
 .contenitore-faq h3 {
     padding-bottom: 40px;
 }
 
-.contenitore-faq span {
-    float: right;
-    padding-top: 30px;
-    padding-right: 30px;
-}
 
 /* footer */
 .footer-container {
@@ -547,6 +571,14 @@ main .contenitore-lungo {
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+.col ul li {
+    text-decoration: none;
+}
+
+.col ul li:hover:nth-child(1n+2) {
+    text-decoration: underline;
 }
 
 .col ul li:nth-child(1n+2) {
