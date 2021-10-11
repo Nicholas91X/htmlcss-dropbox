@@ -364,16 +364,17 @@ main .contenitore-lungo {
 .partners-container {
     width: 100vw;
     margin-top: 30px;
+    overflow-x: hidden;
 }
 
 .partners-container .col-sx,
 .partners-container .col-dx {
-    width: 30vw;
+    width: calc(100% - 70vw);
     float: left;
 }
 
 .partners-container .col-cen {
-    width: 40vw;
+    width: calc(100% - 60vw);
     height: 30vw;
     float: left;
     padding: 30px;
@@ -451,6 +452,24 @@ main .contenitore-lungo {
 .partners-orizzontale {
     background-color: rgba(180,208,231,255);
     float: left;
+    padding: 100px;
+    padding-left: 200px;
+    color: rgb(100, 2, 2);
+}
+
+.container-bottom {
+    width: 60%;
+    float: left;
+    font-size: 28px;
+}
+
+.container-bottom h2 {
+    padding-right: 100px;
+}
+
+.partners-orizzontale .pulsante-prova {
+    width: 40%;
+    float: left;
 }
 
 /* footer */
@@ -471,8 +490,8 @@ main .contenitore-lungo {
 
 /* .debug .container-interno {
     height: 100%;
-    background-color: burlywood; */
-}
+    background-color: burlywood;
+} */
 
 /* main .colonne {
     background-color: gold;
