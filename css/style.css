@@ -472,6 +472,28 @@ main .contenitore-lungo {
     float: left;
 }
 
+.contenitore-faq {
+    margin-top: 100px;
+}
+
+.domanda {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contenitore-faq h3 {
+    padding-bottom: 40px;
+}
+
+.contenitore-faq span {
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+/* main domande frequenti */
+
 /* footer */
 
 /* debug */
@@ -499,4 +521,9 @@ main .contenitore-lungo {
 
 /* .debug .contenitore-operazioni {
     height: 1000px;
+} */
+
+/* .debug .contenitore-faq {
+    background-color: darkseagreen;
+    height: 500px;
 } */
