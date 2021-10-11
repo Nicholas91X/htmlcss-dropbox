@@ -497,7 +497,7 @@ main .contenitore-lungo {
 /* footer */
 .footer-container {
     width: 100vw;
-    height: 40vw;
+    height: 35vw;
     background-color: black;
     margin-top: 100px;
     padding: 80px 150px 0px;
@@ -509,9 +509,11 @@ main .contenitore-lungo {
 }
 
 .col {
-    width: calc(100% / 5);
+    width: calc(100% / 5 - 75px);
+    margin-right: 75px;
     display: inline-block;
     float: left;
+    font-size: 10px;
 }
 
 .col ul {
@@ -529,7 +531,7 @@ main .contenitore-lungo {
 }
 
 .footer-orizzontale .lingua {
-    font-size: 15px;
+    font-size: 10px;
     line-height: 15px;
     color: rgba(153,153,153,255);
     padding-top: 30px;
