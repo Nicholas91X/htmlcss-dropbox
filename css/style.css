@@ -611,15 +611,51 @@ main .contenitore-lungo {
     font-size: 10px;
     line-height: 15px;
     color: rgba(153,153,153,255);
-    padding-top: 30px;
+    display: inline-block;
 }
 
 .footer-orizzontale {
     padding-top: 75px;
 }
 
+.footer-orizzontale div:first-child {
+    padding-bottom: 30px;
+}
+
 .lingua i:last-child {
     vertical-align: text-bottom;
+}
+
+.footer-orizzontale .submenu {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    display: none;
+    text-align: left;
+}
+
+.lingua:hover .submenu {
+    display: inline-block;
+}
+
+.lingua .submenu li:hover {
+    background-color: blanchedalmond;
+    border-bottom: 2px solid red;
+}
+
+.footer-orizzontale .submenu li {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    min-width: 100px;
+    background-color: white;
+    padding-left: 5px;
+}
+
+.footer-orizzontale .submenu li img {
+    width: 15px;
+    vertical-align: middle;
 }
 /* debug */
 /* .debug .header-container {
