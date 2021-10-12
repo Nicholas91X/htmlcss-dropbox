@@ -36,7 +36,7 @@ a {
 /* header */
 .header-container {
     width: 100%;
-    height: 75px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,15 +47,69 @@ a {
     color: black;
 }
 
-.nav-sx,
-.nav-dx,
+.nav-sx {
+    float: left;
+    width: 50%;;
+}
+
+.nav-dx {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+}
+
+.nav-sx li {
+    margin-right: 20px;
+}
+
+.nav-sx li.primo {
+    margin-left: 10px;
+}
+
+.nav-dx li {
+    margin-left: 20px;
+}
+
+.nav-dx li.ultimo {
+    margin-right: 10px;
+}
+
 .nav-sx li,
 .nav-dx li {
     display: inline-block;
-    line-height: 73px;
+    line-height: 48px;
 }
 
-.nav-sx li:hover,
+.nav-sx li ul li,
+.nav-dx li ul li {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.nav-sx ul li .submenu,
+.nav-dx ul li .submenu {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    text-align: center;
+}
+
+.nav-sx ul li:hover .submenu {
+    display: inline-block;
+}
+
+.submenu li:hover {
+    background-color: white;
+}
+
+.main-menu {
+    position: relative;
+}
+/* .nav-sx li:hover,
 .nav-dx li:hover {
     border-bottom: 2px solid black;
 }
@@ -63,9 +117,9 @@ a {
 .nav-sx li:first-child:hover,
 .nav-dx li:last-child:hover {
     border-bottom: none;
-}
+} */
 
-.nav-sx li:nth-child(2n+2) {
+/* .nav-sx li:nth-child(2n+2) {
     margin: 0 30px;
 }
 
@@ -79,15 +133,7 @@ a {
 
 .nav-dx li:last-child {
     margin-right: 15px;
-}
-
-.nav-sx {
-    float: left;
-}
-
-.nav-dx {
-    float: right;
-}
+} */
 
 .header-container nav img {
     vertical-align: text-bottom;
@@ -98,7 +144,7 @@ a {
     width: 100%;
     height: 600px;
     background-color: rgba(180,208,231,255);
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .jumbotron-container {
@@ -498,7 +544,7 @@ main .contenitore-lungo {
 
 /* main domande frequenti */
 .contenitore-faq {
-    width: ;
+    width: 100%;
     margin-top: 100px;
 }
 
@@ -558,7 +604,6 @@ main .contenitore-lungo {
 .col {
     width: calc(100% / 5 - 75px);
     margin-right: 75px;
-    display: inline-block;
     float: left;
     font-size: 10px;
 }
@@ -630,3 +675,7 @@ main .contenitore-lungo {
     background-color: darkseagreen;
     height: 500px;
 } */
+
+
+
+
