@@ -33,6 +33,12 @@ a {
     border: 1px solid black;
 }
 
+.blue-button:not(#ultimo):hover,
+.white-button:hover {
+    -webkit-box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.7); 
+    box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.7);
+}
+
 /* header */
 .header-container {
     width: 100%;
@@ -84,8 +90,8 @@ a {
     text-align: center;
 }
 
-.nav-sx ul li:hover,
-.nav-dx ul li:hover {
+.nav-sx ul li:not(.primo):hover,
+.nav-dx ul li:not(.ultimo):hover {
     background-color: blanchedalmond;
 }
 
